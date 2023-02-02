@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shoepp - Home</title>
+    <link rel="icon" href="img/Fevicon.png" type="image/png" />
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/nice-select/nice-select.css" />
+    <link rel="stylesheet" href="vendors/nice-select/nice-select.css" />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/components/carousel/"
+    />
+    <link rel="stylesheet" href="./scss/theme/_carousel.scss" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="vendors/owl-carousel/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand logo_h" href="index.html"
+              ><img src="img/logo.png" alt="" style="width: 180px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Shop</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="category.html">Shop Category</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="checkout.html"
+                        >Product Checkout</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+
+              <ul class="nav-shop">
+                <li class="nav-item">
+                  <button><i class="ti-search"></i></button>
+                </li>
+
+                <li class="nav-item">
+                  <button>
+                    <a href="./checkout.html"><i class="ti-shopping-cart"></a></i
+                    ><span class="nav-shop__circle">3</span>
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <a class="button button-header" href="login.html">Log in</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+    <main class="site-main">
+      <!--================ Hero banner start =================-->
+      <section class="hero-banner">
+        <div class="container">
+          <div class="row no-gutters align-items-center pt-60px">
+            <div class="col-5 d-none d-sm-block">
+              <div class="hero-banner__img">
+                <img class="img-fluid" src="img/home/hero-slide1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+              <div class="hero-banner__content">
+                <h4>Shop is fun</h4>
+                <h1>Browse Our Premium Product</h1>
+                <p>
+                  To Internet users across the region, Shoepp offers a one-stop online shopping experience that provides a wide selection of products, a social community for exploration, and seamless fulfilment services.
+                </p>
+                <a class="button button-hero" href="#">Browse Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--================ Hero banner start =================-->
+
+      <!--================ Hero Carousel start =================-->
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center>
+              <img
+                class="img-carousel"
+                src="./img/home/hero-slide1.png"
+                class="d-block w-100"
+                alt="..."
+                href="#" class="hero-carousel__slideOverlay">
+                  <h3>Ultraboost 3.0 Sporty Shoes</h3>
+                  <p>From a walk in the park to a weekend run with friends, these Ultraboost 3.0 shoes are designed to keep you comfortable</p>
+            </center>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img
+                class="img-carousel"
+                src="./img/home/hero-slide2.png"
+                class="d-block w-100"
+                alt="..."
+                href="#" class="hero-carousel__slideOverlay">
+                <h3>Beats Solo on-ear Headphones</h3>
+                <p>Beats Solo on-ear Headphones immerse you in rich, award-winning sound, everywhere you want to go</p>
+            </center>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img
+                class="img-carousel"
+                src="./img/home/hero-slide3.png"
+                class="d-block w-100"
+                alt="..."
+                href="#" class="hero-carousel__slideOverlay">
+                <h3>Waterproof Ultra-Portable Bluetooth Speaker</h3>
+                <p>Grab and go. The JBL GO 2 is a full-featured waterproof Bluetooth speaker to take with you everywhere</p>
+            </center>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--================ Hero Carousel end =================-->
+
+
+      <!-- ================ trending product section start ================= -->
+      <section class="section-margin calc-60px">
+        <div class="container">
+          <div class="section-intro pb-60px">
+            <p><i>Popular Items in the market</i></p>
+            <h2>Trending <span class="section-intro__style">Products</span></h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product1.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Accessories</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Quartz Belt Watch</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product2.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Beauty</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Women Freshwash</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product3.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a class="nav-link" href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Decor</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Room Flash Light</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product4.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Decor</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Room Flash Light</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product5.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Accessories</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Man Office Bag</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product6.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Kids Toy</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Charging Car</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product7.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Accessories</p>
+                  <h4 class="card-product__title">
+                    <a href="single-product.html">Blutooth Speaker</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-center card-product">
+                <div class="card-product__img">
+                  <img class="card-img" src="img/product/product8.png" alt="" />
+                  <ul class="card-product__imgOverlay">
+                    <li>
+                      <button><i class="ti-search"></i></button>
+                    </li>
+                    <li>
+                      <button>
+                        <a href="./checkout.html"
+                          ><i class="ti-shopping-cart"></i
+                        ></a>
+                      </button>
+                    </li>
+                    <li>
+                      <button id="btn-heart"><i class="ti-heart"></i></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Kids Toy</p>
+                  <h4 class="card-product__title">
+                    <a href="#">Charging Car</a>
+                  </h4>
+                  <p class="card-product__price">$150.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================ trending product section end ================= -->
+    </main>
+    
+    <!--================ Start footer Area  =================-->
+    <!-- start info categories-->
+    <div
+      class="section footer"
+      style="padding: 1rem 2rem 1rem; background-color: lightcyan"
+    >
+      <div
+        class="footer-container container"
+        style="
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          column-gap: 1rem;
+          align-items: center;
+        "
+      >
+        <div class="footer-content" style="display: grid; row-gap: 1rem">
+          <a href="#" class="logo-content flex">
+            <span
+              class="logo-text"
+              style="
+                color: var(--text-color-light);
+                font-size: 2rem;
+                font-weight: var(--font-medium);
+              "
+              >Shoepp</span
+            >
+          </a>
+
+          <p
+            class="content-description"
+            style="text-align: left; font-size: var(--small-font)"
+          >
+            <i class="ri-amazon-fill"></i>Shoepp is our country's largest
+            e-commerce site. Shoepp provides all of the necessary items for all
+            ages and demands.
+          </p>
+
+          <div class="footer-location flex">
+            <div
+              class="location-text"
+              style="text-align: left; font-size: var(--small-font)"
+            >
+              <i class="ri-map-pin-line"></i>
+              123 ABC Street, Vietnam, 70000
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="footer-linkContent"
+          style="
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: end;
+          "
+        >
+          <ul class="footer-links">
+            <h4 class="footerLinks-title">Shoes</h4>
+            <li><a href="#" class="footer-link">All shoes</a></li>
+            <li><a href="#" class="footer-link">Custom shoes</a></li>
+            <li><a href="#" class="footer-link">Running shoes</a></li>
+            <li><a href="#" class="footer-link">Basketball shoes</a></li>
+            <li><a href="#" class="footer-link">Football shoes</a></li>
+            <li><a href="#" class="footer-link">Gym and Training shoes</a></li>
+            <li><a href="#" class="footer-link">Lifestyle shoes</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4 class="footerLinks-title">Clothing</h4>
+            <li><a href="#" class="footer-link">All clothing</a></li>
+            <li><a href="#" class="footer-link">Modest Wear</a></li>
+            <li><a href="#" class="footer-link">Hoodies and Pullovers</a></li>
+            <li><a href="#" class="footer-link">Shirts and Tops</a></li>
+            <li><a href="#" class="footer-link">Jackets</a></li>
+            <li><a href="#" class="footer-link">Trousers and Leggings</a></li>
+            <li><a href="#" class="footer-link">Shorts</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h4 class="footerLinks-title">Product Categories</h4>
+            <li><a href="./category.html" class="footer-link">Men</a></li>
+            <li><a href="./category.html" class="footer-link">Women</a></li>
+            <li><a href="./category.html" class="footer-link">Accessories</a></li>
+            <li><a href="./category.html" class="footer-link">Bay item</a></li>
+            <li><a href="./category.html" class="footer-link">Electronics</a></li>
+            <li><a href="./category.html" class="footer-link">Food and Beverage</a></li>
+            <li><a href="./category.html" class="footer-link">Decoration</a></li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="footer-copyRight"
+        style="
+          max-width: 970px;
+          margin: 0 auto;
+          text-align: center;
+          padding-top: 10px;
+          margin-top: 10px;
+          font-size: var(--small-font);
+          border-top: 2px solid var(--text-color-light);
+          color: black;
+        "
+      >
+        &#169; Shoepp. All rights reserved
+      </div>
+    </div>
+    <!-- start info categories-->
+
+    <!--================ Start footer Area  =================-->
+    <footer class="footer">
+      <div class="footer-bottom" style="align-items: space-between">
+        <div class="container">
+          <div class="row d-flex">
+            <div
+              class="approach-methods"
+              style="
+                color: white;
+                font-size: 40px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: 100px;
+                justify-items: center;
+                margin-left: 30px;
+              "
+            >
+              <div class="payment-methods">
+                <i class="ri-visa-fill"></i>
+                <i class="ri-mastercard-fill"></i>
+                <i class="ri-paypal-fill"></i>
+                <i class="ri-amazon-fill"></i>
+                <i class="ri-bank-card-fill"></i>
+                <i class="ri-bank-fill"></i>
+              </div>
+
+              <div class="download-methods">
+                <i class="ri-google-play-line"></i>
+                <i class="ri-app-store-line"></i>
+                <i class="ri-windows-fill"></i>
+              </div>
+
+              <div class="call-methods">
+                <i class="ri-telegram-line"></i>
+                <i class="ri-whatsapp-line"></i>
+                <i class="ri-snapchat-line"></i>
+                <i class="ri-kakao-talk-line"></i>
+                <i class="ri-line-fill"></i>
+                <i class="ri-discord-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendors/skrollr.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="vendors/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/mail-script.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
